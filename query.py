@@ -105,7 +105,7 @@ try:
 
     merged_df = merged_df[column_order]
     merged_df.to_excel(output_path, index=False)
-    log(f"✅ Final output saved at: {output_path}")
+    log(f"Final output saved at: {output_path}")
 
 except Exception as e:
     err(f"Script failed: {e}")
